@@ -1,0 +1,37 @@
+==============================
+    Chapter 1: Python Basics
+==============================
+
+1. REPL (Read-Evaluate-Print Loop)
+----------------------------------
+- Open the terminal and type: python
+- You can perform calculations directly, e.g.:
+     5 + 6   =>   11
+
+2. Modules
+----------
+- Import a module using the import statement:
+     import pyjocks
+
+3. Comments
+-----------
+- Use comments to explain your code.
+- To add a comment, start the line with #:
+     # This is a single-line comment
+
+- Shortcut: Press Ctrl + / to comment/uncomment lines in many editors.
+
+Types of Comments:
+------------------
+
+a) Single-Line Comments:
+    - Begin the line with #
+
+b) Multi-Line Comments:
+    - Use # at the start of each line, or
+    - Use triple quotes (""") for multi-line strings:
+          """
+          This is an amazing
+          example of a multi-line
+          comment!
+          """

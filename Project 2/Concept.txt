@@ -1,0 +1,33 @@
+🏆 PROJECT 2 – THE PERFECT GUESS
+-----------------------------------------
+Program Menu:
+
+===== The Perfect Guess =====
+
+Guess the secret number: 
+-----------------------------------------
+
+
+Steps:
+ - print(("="*4), " The Perfect Guess ", ("="*4))
+ - toked a input Guess a number
+ - Use random module to chose a random number between 1-100
+ - if the random number > user_input than shows Higher number please!
+ - if the random number < user_input than shows Lower number please!
+ - and than make this in while loop like while True
+ - if random number == user_input show this:
+    Congratulations!
+    You guessed the correct number.
+ - When the player wins, display:
+    You guessed the number in 7 attempts.
+ - To make this use like:
+    round = 0
+    while True:
+      ....
+      ....
+      round += 1
+      if random number == user_input
+        .....
+        print(f"You guessed the number in {round} attempts.")
+      
+ - end the program print("Thanks for playing!") 

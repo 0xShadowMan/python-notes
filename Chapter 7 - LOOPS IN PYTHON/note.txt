@@ -1,0 +1,16 @@
+A while loop repeatedly executes a block of code as long as its condition is True. After each iteration, Python goes back to the top, checks the condition again, and if it is still True, runs the code again. The loop stops when the condition becomes False.
+
+                                How it works
+Start
+  │
+  ▼
+Check condition
+  │
+  ├── True ──► Run the code
+  │              │
+  │              ▼
+  └────────── Go back and check the condition again
+  │
+  └── False ──► Exit the loop
+
+  

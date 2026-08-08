@@ -1,0 +1,43 @@
+🏆 Challenge: Student Notes Manager
+
+Create a program that shows this menu:
+
+===== Student Notes =====
+
+1. Add a Note
+2. Show All Notes
+3. Search a Note
+4. Count Notes
+5. Exit
+
+Options 1. Add a Note:
+ - to add note i need to create a notes.txt and make a rewrite or append  system 
+ - like create a notes.txt file if it not exits that update this note using append and then 
+   make the function, name add_note 
+
+Options 2. Show All Notes:
+ - to shows everything inside the file notes.txt, i can use .read("notes.txt")
+ - and lastly put output like this
+ - 
+ ----- Notes -----
+Learn Python
+Practice File I/O
+Finish Homework
+
+Options 3. Search a Note:
+ - this function will Search the word inside th notes.txt file.
+ - so i can use like this fast read this file and save this in a variable and than i can use 
+  .find function to Search this word like:
+
+text = "The quick brown fox jumps"
+position = text.find("fox")
+print(position) 
+
+Options 4. Count Notes:
+ - This function will read whatever lines are present in notes.txt.
+ - i can use .readline function in file i/O
+
+ Options 5. Exit:
+ - simple. if (user_input == 5):
+             print("Thanks for using this program")
+            break

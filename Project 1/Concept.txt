@@ -1,0 +1,31 @@
+'''
+Concept:
+
+There are 3 choices:
+1 = Snake
+2 = Water
+3 = Gun
+
+Step 1:
+- User enters a number (1, 2, or 3).
+
+Step 2:
+- Computer chooses a random number from 1 to 3 using the random module.
+
+Step 3:
+Compare the choices.
+
+If user == computer:
+    Draw
+
+Snake (1) vs Water (2):
+    Snake wins
+
+Snake (1) vs Gun (3):
+    Gun wins
+
+Water (2) vs Gun (3):
+    Water wins
+
+Print the winner.
+'''

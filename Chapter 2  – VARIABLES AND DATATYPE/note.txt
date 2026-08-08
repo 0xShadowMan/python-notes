@@ -1,0 +1,52 @@
+Chapter 2 Summary: Variables, Data Types, and Functions in Python
+=================================================================
+
+1. Variables
+------------
+- Variables are used to store data in Python.
+- You can assign values using the '=' operator.
+    Example:
+        name = "Alice"
+        age = 25
+
+2. Rules for Naming Variables
+-----------------------------
+- Variable names must start with a letter or underscore (_).
+- They cannot start with a number.
+- Only letters, numbers, and underscores are allowed.
+- Variable names are case-sensitive.
+    Example:
+        my_var = 10
+        MyVar = 20  # Different from my_var
+
+3. Data Types
+-------------
+- Common data types in Python:
+        - int: Integer numbers (e.g., 5, -3)
+        - float: Decimal numbers (e.g., 3.14, -0.5)
+        - str: Strings/text (e.g., "Hello")
+        - bool: Boolean values (True, False)
+    Example:
+        x = 10        # int
+        y = 3.5       # float
+        name = "Bob"  # str
+        is_valid = True  # bool
+
+4. The type() Function
+----------------------
+- Use type() to check the data type of a variable.
+    Example:
+        print(type(x))      # Output: <class 'int'>
+        print(type(name))   # Output: <class 'str'>
+
+5. The input() Function
+-----------------------
+- input() is used to take user input as a string.
+    Example:
+        user_name = input("Enter your name: ")
+        age = input("Enter your age: ")
+        # Convert age to integer
+        age = int(age)
+
+--------------------------------------------------
+Tip: Use descriptive variable names for better code readability!

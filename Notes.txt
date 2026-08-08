@@ -1,0 +1,63 @@
+✅ Mutable (Can be changed after creation)
+1. List (list)
+2. Dictionary (dict)
+3. Set (set)
+4. Bytearray (bytearray)
+
+❌ Immutable (Cannot be changed after creation)
+1. String (str)
+2. Tuple (tuple)
+3. Integer (int)
+4. Float (float)
+5. Boolean (bool)
+
+Works for:
+
+Empty string ""
+Empty list []
+Empty tuple ()
+Empty dictionary {}
+
+
+Why do we need loops?
+1. Process multiple items
+
+Imagine you have a list of fruits.
+
+fruits = ["Apple", "Banana", "Mango"]
+
+for fruit in fruits:
+    print(fruit)
+
+Output:
+
+Apple
+Banana
+Mango
+
+Without a loop:
+
+print(fruits[0])
+print(fruits[1])
+print(fruits[2])
+
+If there were 1,000 fruits, this would be impractical.
+
+-- Return --
+
+def add(a, b):
+    return a + b  
+    # 'return' sends the value back, doesn't print or store it on its own
+
+add(3, 5)  
+# runs, returns 8, but nothing catches it — value is lost
+
+result = add(3, 5)  
+# now 8 is stored inside "result"
+
+print(result)  
+# prints what's inside result → 8
+
+print(add(3, 5))  
+# same idea, just shorter — no separate variable needed
+
